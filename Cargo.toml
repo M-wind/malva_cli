@@ -1,6 +1,6 @@
 [package]
 name = "malva"
-default-run = "A simple cli wrapper for malva."
+description = "A simple cli wrapper for malva."
 version = "0.1.0"
 edition = "2024"
 
