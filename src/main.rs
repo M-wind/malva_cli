@@ -20,7 +20,7 @@ const CLAP_STYLING: styling::Styles = styling::Styles::styled()
     about = "Configurable, smart and fast CSS, SCSS, Sass and Less formatter.\nDocumentation -- https://malva.netlify.app"
 )]
 struct Malva {
-    /// Config path [OPTIONAL]
+    /// Config path 
     #[clap(short, long)]
     config: Option<PathBuf>,
     #[clap(subcommand)]
