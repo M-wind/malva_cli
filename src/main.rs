@@ -12,7 +12,7 @@ const CLAP_STYLING: styling::Styles = styling::Styles::styled()
     .valid(styling::AnsiColor::Green.on_default())
     .invalid(styling::AnsiColor::Yellow.on_default());
 
-#[derive(Debug, Parser)]
+#[derive(Parser)]
 #[command(styles = CLAP_STYLING)]
 #[command(override_usage = "\n  malva [OPTIONS] format [FILE]")]
 #[command(

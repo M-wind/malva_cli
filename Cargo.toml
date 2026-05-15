@@ -5,10 +5,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-malva = { version = "0.15.0", features = ["config_serde"]}
-serde = { version = "1.0.228", features = ["derive"] }
+malva = { version = "0.15.3", features = ["config_serde"] }
 serde_json = "1.0.145"
-clap = { version = "4.5.51", features = ["derive"] }
+clap = { version = "4.6.1", default-features = false, features = ["derive", "std", "color", "help"] }
 
 
 [profile.release]
